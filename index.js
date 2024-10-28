@@ -11,10 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
-
+let fullName = "Sarah AlRashidi";
+let yearOfBirth = 1995;
+let hobby = "Drawing";
+let funFact = "I Love to Sleep"
+let image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Y_EzITRIdxrLO2P65FqfExoxynJgZu7kFQ&s";
 
 /**
  * Part 2: String Interpolation
@@ -29,9 +30,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2024 - yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`;
 
 
 
@@ -45,14 +46,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars += 1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars -= 1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars + 2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars - 2;
 }
